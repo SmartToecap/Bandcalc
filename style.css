@@ -1,0 +1,57 @@
+/* style.css für
+   Bandbreiten Rechner 2024 (quasi Dreisatz)
+   programmiert von Robin Neff 
+   Version 1.0.4 */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: navy;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+.screen {
+    display: block; /* Ensure the classes set as screen are visible */
+}
+
+.hidden {
+    display: none; /* Hide hidden screens */
+}
+
+#enter-data-screen, #result-screen {
+    padding: 20px;
+    background: white;
+    margin: 2% auto;
+    width: 80%;
+    max-width: 600px;
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+#inputBandwidth, #inputDataAmount, #inputTime {
+    margin-bottom: 10px;
+    }
+    
+#enter-data-screen select {
+    max-width: 200px;
+    min-width: 200px;
+    width: 200px !important;;
+    }
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+	background: repeat-x url('button_gradient.png') navy center;
+    color: white;
+}
+
+button:hover {
+	background: repeat-x url('button_gradient.png') lightgray 50% 45%;
+    color: black;
+}

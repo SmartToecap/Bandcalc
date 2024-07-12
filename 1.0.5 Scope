@@ -1,0 +1,14 @@
+// Bandbreiten Rechner 2024 (quasi Dreisatz)
+// programmiert von Robin Neff 
+// Version 1.0.5 Scope:
+
+  + Berechnungsbutton ersetzen durch drei einzelne Buttons direkt neben den 
+    Feldern, die mit dem jwlg. Feld korrespondieren und dessen Berechnung
+    veranlassen
+  + Einführung Erweitert/Optionen:
+    - Einstellung Nachkommastellen
+    - Einstellung Einheitenoptimierung
+    
+
+  + Zeitangabe als Kompositum ein- bzw. ausgeben (ggf. als Option)
+      (z.B. a Wochen, b Tage, c Stunden, d Minuten und e Sekunden)
